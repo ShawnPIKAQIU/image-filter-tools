@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="图片处理工具箱 1.4.5：格式转换、图片裁剪、低像素清理、图片查重、图片调色、评分与批量命名。">
+  <meta name="description" content="图片处理工具箱 1.4.9：格式转换、图片裁剪、低像素清理、图片查重、图片调色、评分与批量命名。">
   <meta name="author" content="王尚">
   <meta property="og:title" content="图片处理工具箱">
   <meta property="og:description" content="一套面向图片整理工作的离线工具。开发和维护：王尚。">
@@ -50,6 +50,7 @@
     .button:hover { transform: translateY(-2px); background: var(--blue-soft); }
     .button.download { border-color: var(--yellow); background: var(--yellow); color: #1f2937; }
     .button.download:hover { border-color: var(--yellow-dark); background: var(--yellow-dark); color: #111827; }
+    .download-actions { display: grid; justify-items: end; gap: 8px; }
     .version { color: var(--muted); font-size: 13px; line-height: 1.6; }
     .hero-art { display: grid; place-items: center; min-height: 310px; border: 1px solid var(--line); border-radius: 28px; background: var(--surface); box-shadow: var(--shadow); }
     .hero-art img { width: min(250px, 72%); aspect-ratio: 1; object-fit: contain; }
@@ -115,10 +116,11 @@
         <h1>让大量图片整理工作更简单</h1>
         <p class="lead">格式转换、自动裁剪、低像素清理、图片查重、调色、评分和批量命名集中在一个工具箱中。安装后即可在电脑本地使用。</p>
         <div class="hero-actions">
-          <a class="button download" href="https://github.com/ShawnPIKAQIU/image-filter-tools/releases/download/v1.4.5/Image-Filter-Tools-1.4.5-Setup.exe">下载 Windows 版</a>
-          <a class="button" href="https://github.com/ShawnPIKAQIU/image-filter-tools/releases/download/v1.4.5/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86%E5%B7%A5%E5%85%B7%E7%AE%B1-1.4.5-Mac%E9%80%9A%E7%94%A8%E7%89%88.dmg">下载 Mac 版</a>
+          <a class="button download" href="https://github.com/ShawnPIKAQIU/image-filter-tools/releases/download/v1.4.9/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86%E5%B7%A5%E5%85%B7%E7%AE%B1-1.4.9-%E5%AE%89%E8%A3%85%E7%89%88.exe">下载 Windows 版</a>
+          <a class="button" href="https://github.com/ShawnPIKAQIU/image-filter-tools/releases/download/v1.4.5/Image-Filter-Tools-1.4.5-Mac-Universal.dmg">下载 Mac 版</a>
+          <span class="version">最新版待开发者上传</span>
           <a class="button" href="#screenshots">查看软件界面</a>
-          <span class="version">版本 1.4.5</span>
+          <span class="version">Windows 版本 1.4.9</span>
         </div>
       </div>
       <div class="hero-art"><img src="app-icon.png" alt="图片处理工具箱应用图标"></div>
@@ -143,20 +145,20 @@
       <div class="shell">
         <div class="download-panel">
           <div>
-            <h3>图片处理工具箱 1.4.5</h3>
+            <h3>图片处理工具箱 1.4.9</h3>
             <p>适用于 Windows 10 / 11。下载完成后运行安装程序，即可开始使用。</p>
-            <div class="download-meta">SHA-256：<code>AD736C0A28C36B13E4B0EEB59791371C4AFBF1646945D90E8FE47CBE467D5F6B</code></div>
+            <div class="download-meta">SHA-256：<code>C184EF546CA42E181BC0C1D4B61DE3F84A1969CB9E548F692A79C06F871D163E</code></div>
           </div>
-          <a class="button download" href="https://github.com/ShawnPIKAQIU/image-filter-tools/releases/download/v1.4.5/Image-Filter-Tools-1.4.5-Setup.exe">下载安装包</a>
+          <a class="button download" href="https://github.com/ShawnPIKAQIU/image-filter-tools/releases/download/v1.4.9/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86%E5%B7%A5%E5%85%B7%E7%AE%B1-1.4.9-%E5%AE%89%E8%A3%85%E7%89%88.exe">下载安装包</a>
         </div>
         <div class="notice">当前安装包尚未购买商业数字签名，部分电脑首次运行时可能显示“未知发布者”提示。请确认下载网址、版本号和上方校验值后再安装。</div>
         <div class="download-panel" style="margin-top: 18px;">
           <div>
             <h3>Mac 安装版 1.4.5</h3>
             <p>下载后双击打开 DMG 文件，将“图片处理工具箱”拖入“应用程序”文件夹即可安装。首次打开未签名版本时，Mac 可能需要在“隐私与安全性”中确认打开。</p>
-            <div class="download-meta">同时支持 Apple 芯片 Mac 和 Intel 芯片 Mac。</div>
+            <div class="download-meta">同时支持 Apple 芯片 Mac 和 Intel 芯片 Mac。最新版待开发者上传。</div>
           </div>
-          <a class="button" href="https://github.com/ShawnPIKAQIU/image-filter-tools/releases/download/v1.4.5/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86%E5%B7%A5%E5%85%B7%E7%AE%B1-1.4.5-Mac%E9%80%9A%E7%94%A8%E7%89%88.dmg">下载 Mac 版</a>
+          <div class="download-actions"><a class="button" href="https://github.com/ShawnPIKAQIU/image-filter-tools/releases/download/v1.4.5/Image-Filter-Tools-1.4.5-Mac-Universal.dmg">下载 Mac 版</a><span class="version">最新版待开发者上传</span></div>
         </div>
       </div>
     </section>
