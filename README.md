@@ -1,7 +1,7 @@
 # 图片处理工具箱
 
-图片处理工具箱 Windows 安装版与 Mac 打包项目下载页面。
+图片处理工具箱 Windows 与 Mac 安装版下载页面。
 
-- 当前版本：1.4.4
+- 当前版本：1.4.5
 - 开发和维护：王尚
 - 官方页面：https://shawnpikaqiu.github.io/image-filter-tools/
